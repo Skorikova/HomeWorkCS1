@@ -9,10 +9,9 @@
 int number = ReadInt("Введите трехзначное число ");// вызываем функцию ридинт передаем параметр "введите трехзначное число", потом результат складываем в переменную намбер
 if(number < 1000 && number > 99)
 {
-    int LastDigit = number%10;
     int SecondDigit = number / 10 % 10;
    
-    Console.WriteLine("SecondDigit="+ SecondDigit);//выводим в консоль последнее число знак + - это соединение строк еще
+    Console.WriteLine("SecondDigit="+ SecondDigit);//выводим в консоль второе число 
 }
 else
 {

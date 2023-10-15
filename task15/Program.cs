@@ -14,5 +14,5 @@ if(number <= 7 && number > 5)
 }
 else
 {
-    Console.WriteLine("Это не выходной");//если число не трехзначное выводим пользователю ошибка
+    Console.WriteLine("Это не выходной");
 }
